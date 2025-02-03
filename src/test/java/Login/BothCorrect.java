@@ -22,20 +22,20 @@ public class BothCorrect {
         driver = new ChromeDriver(chromeOptions);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://practicetestautomation.com/practice-test-login/");
     }
 
     @Test
     @Parameters({"Username","Password"})
     public void LoginwithBothCorrect(String Uname, String Pswd ){
 
-        WebElement Username = driver.findElement(By.xpath("//input[@placeholder='Username']"));
+        WebElement Username = driver.findElement(By.xpath("//input[@id='username']"));
         Username.sendKeys(Uname);
 
-        WebElement Password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
+        WebElement Password = driver.findElement(By.xpath("//input[@id='password']"));
         Password.sendKeys(Pswd);
 
-        WebElement loginbutton = driver.findElement(By.xpath("//button[@type='submit']"));
+        WebElement loginbutton = driver.findElement(By.xpath("//button[@id='submit']"));
         loginbutton.click();
     }
     @AfterMethod
