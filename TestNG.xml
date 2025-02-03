@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+ <suite name = "Login suite">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+
+    <test name = "BothCorrect">
+        <parameter name="Username" value="Admin"></parameter>
+        <parameter name="Password" value="admin123"></parameter>
+        <classes>
+            <class name = "Login.BothCorrect"/>
+        </classes>
+    </test>
+
+    <test name = "BothIncorrect">
+        <parameter name="Username" value="dummyAdmin"></parameter>
+        <parameter name="Password" value="dummypass"></parameter>
+        <classes>
+            <class name = "Login.BothIncorrect"/>
+        </classes>
+    </test>
+
+    <test name = "CorrectPassword">
+        <parameter name="Username" value="dummyAdmin"></parameter>
+        <parameter name="Password" value="admin123"></parameter>
+        <classes>
+            <class name = "Login.CorrectPassword"/>
+        </classes>
+    </test>
+
+    <test name = "CorrectUsername">
+        <parameter name="Username" value="Admin"></parameter>
+        <parameter name="Password" value="dummypass"></parameter>
+        <classes>
+            <class name = "Login.CorrectUsername"/>
+        </classes>
+    </test>
+</suite>
