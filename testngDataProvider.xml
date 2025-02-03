@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name = "Login suite using Testng DataProvider">
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+
+    <test name = "DataProviderTest">
+        <classes>
+            <class name = "DataDrivenTests.LoginUsing_DataProvider"/>
+        </classes>
+    </test>
+
+
+</suite>
