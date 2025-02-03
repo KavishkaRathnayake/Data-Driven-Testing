@@ -35,7 +35,7 @@ public class CorrectUsername {
         WebElement Password = driver.findElement(By.xpath("//input[@id='password']"));
         Password.sendKeys(Pswd);
 
-        WebElement loginbutton = driver.findElement(By.xpath("//button[@type='submit']"));
+        WebElement loginbutton = driver.findElement(By.xpath("//button[@id='submit']"));
         loginbutton.click();
     }
     @AfterMethod
