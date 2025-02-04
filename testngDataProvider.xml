@@ -6,9 +6,16 @@
         <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
     </listeners>
 
+<!--    <test name = "DataProviderTest">-->
+<!--        <classes>-->
+<!--            <class name = "DataDrivenTests.LoginUsing_DataProvider"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
     <test name = "DataProviderTest">
         <classes>
-            <class name = "DataDrivenTests.LoginUsing_DataProvider"/>
+            <class name = "DataDrivenTests.LoginDataProviderby_readingExcel"/>
         </classes>
     </test>
 

@@ -23,7 +23,7 @@ public class LoginUsing_DataProvider {
         driver = new ChromeDriver(chromeOptions);
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.manage().window().maximize();
-        driver.get("https://practicetestautomation.com/practice-test-login/");
+        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
     }
 
     @DataProvider(name = "loginata")
@@ -40,18 +40,18 @@ public class LoginUsing_DataProvider {
     @Test(dataProvider = "loginata")
     public void LoginTestScenario(String Uname, String Pswd, String expValidation) throws InterruptedException {
 
-        WebElement Username = driver.findElement(By.xpath("//input[@id='username']"));
+        WebElement Username = driver.findElement(By.xpath("//input[@placeholder='Username']"));
         Username.sendKeys(Uname);
 
-        WebElement Password = driver.findElement(By.xpath("//input[@id='password']"));
+        WebElement Password = driver.findElement(By.xpath("//input[@placeholder='Password']"));
         Password.sendKeys(Pswd);
 
-        WebElement loginbutton = driver.findElement(By.xpath("//button[@id='submit']"));
+        WebElement loginbutton = driver.findElement(By.xpath("//button[@type='submit']"));
         loginbutton.click();
 
         Thread.sleep(3000);
 
-        boolean urlVerification =  driver.getCurrentUrl().contains("logged-in-successfully");
+        boolean urlVerification =  driver.getCurrentUrl().contains("dashboard");
 
         if(expValidation.equals("Valid")) {
             Assert.assertTrue(urlVerification, "Expected login success, But navigated to the dashboard");
