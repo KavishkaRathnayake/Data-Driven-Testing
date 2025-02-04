@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary"></span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Feb 3, 2025 06:43:20 AM</span></a>
+<a href="#"><span class="badge badge-primary">Feb 4, 2025 06:59:20 AM</span></a>
 </li>
 </ul>
 </div>
@@ -45,11 +45,6 @@
 <li class="nav-item dropdown" onclick="toggleView('test-view')">
 <a id="nav-test" class="dropdown-toggle" href="#">
 <span class="ico"><i class="fa fa-list"></i></span>
-</a>
-</li>
-<li class="nav-item dropdown" onclick="toggleView('exception-view')">
-<a id="nav-exception" class="dropdown-toggle" href="#">
-<span class="ico"><i class="fa fa-bug"></i></span>
 </a>
 </li>
 <li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
@@ -72,7 +67,6 @@
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
 <a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
-<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
 </ul>
@@ -89,18 +83,18 @@
           </div>
           <div class="test-detail">
             <span class="meta text-white badge badge-sm"></span>
-            <p class="name">BothCorrect</p>
-            <p class="text-sm"><span>06:43:25 AM</span> / <span>0.258 secs</span></p>
+            <p class="name">LoginUsing_Parameter</p>
+            <p class="text-sm"><span>06:59:26 AM</span> / <span>48.887 secs</span></p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
 <div class='float-right'><span class='badge badge-default'>#test-id=1</span></div>
-<h5 class="test-status text-pass">BothCorrect</h5>
-<span class='badge badge-success'>02.03.2025 06:43:25</span>
-<span class='badge badge-danger'>02.03.2025 06:43:25</span>
-<span class='badge badge-default'>0.258 secs</span>
+<h5 class="test-status text-pass">LoginUsing_Parameter</h5>
+<span class='badge badge-success'>02.04.2025 06:59:26</span>
+<span class='badge badge-danger'>02.04.2025 07:00:14</span>
+<span class='badge badge-default'>48.887 secs</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
 </div>
@@ -108,7 +102,7 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="2">LoginwithBothCorrect</div>
+            <div class="node" id="2">LoginwithBotInCorrect</div>
             <div class="status-avatar float-right pass-bg">
                <i class="fa fa-check text-white"></i>
             </div>
@@ -118,7 +112,7 @@
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="3">[Admin, admin123]</div>
+            <div class="node" id="3">[Admin, admin123, Valid]</div>
             <div class="status-avatar float-right pass-bg">
                <i class="fa fa-check text-white"></i>
             </div>
@@ -131,7 +125,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>6:43:25 AM</td>
+        <td>6:59:35 AM</td>
         <td>
           Test passed
         </td>
@@ -141,116 +135,25 @@
           </div>
         </div>
       </div>
-  </div>
-      </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="4"
-          author=""
-          tag=""
-          device="">
-          <div class="status-avatar fail-bg">
-            <i class="fa fa-times text-white"></i>
-          </div>
-          <div class="test-detail">
-            <span class="meta text-white badge badge-sm"></span>
-            <p class="name">BothIncorrect</p>
-            <p class="text-sm"><span>06:43:29 AM</span> / <span>7.82 secs</span></p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<div class='float-right'><span class='badge badge-default'>#test-id=4</span></div>
-<h5 class="test-status text-fail">BothIncorrect</h5>
-<span class='badge badge-success'>02.03.2025 06:43:29</span>
-<span class='badge badge-danger'>02.03.2025 06:43:37</span>
-<span class='badge badge-default'>7.82 secs</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>  <div class="mt-4">  <div class="accordion">
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="5">LoginwithBotInCorrect</div>
-            <div class="status-avatar float-right fail-bg">
-               <i class="fa fa-times text-white"></i>
+            <div class="node" id="4">[dummyAdmin, dummypass, Invalid]</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
             </div>
           </div>
         </div>
-  <div class="accordion">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-title">
-            <div class="node" id="6">[dummyAdmin, dummypass]</div>
-            <div class="status-avatar float-right fail-bg">
-               <i class="fa fa-times text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:43:37 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:46 AM</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.WebDriverException: disconnected: received Inspector.detached event
-  (failed to check if window was closed: disconnected: Unable to receive message from renderer)
-  (Session info: chrome=121.0.6167.184)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [8205059726280b000eea8dd3a92d57cd, findElement {using=xpath, value=//button[@type='submit']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\kavis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3001}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3001/devtool..., se:cdpVersion: 121.0.6167.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 8205059726280b000eea8dd3a92d57cd
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at Login.BothIncorrect.LoginwithBotInCorrect(BothIncorrect.java:38)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</textarea>
-          
+          Test passed
         </td>
       </tr>
   </tbody>
@@ -258,116 +161,25 @@ Session ID: 8205059726280b000eea8dd3a92d57cd
           </div>
         </div>
       </div>
-  </div>
-      </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="7"
-          author=""
-          tag=""
-          device="">
-          <div class="status-avatar fail-bg">
-            <i class="fa fa-times text-white"></i>
-          </div>
-          <div class="test-detail">
-            <span class="meta text-white badge badge-sm"></span>
-            <p class="name">CorrectPassword</p>
-            <p class="text-sm"><span>06:43:40 AM</span> / <span>1.032 secs</span></p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<div class='float-right'><span class='badge badge-default'>#test-id=7</span></div>
-<h5 class="test-status text-fail">CorrectPassword</h5>
-<span class='badge badge-success'>02.03.2025 06:43:40</span>
-<span class='badge badge-danger'>02.03.2025 06:43:41</span>
-<span class='badge badge-default'>1.032 secs</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>  <div class="mt-4">  <div class="accordion">
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="8">CorrectPassword</div>
-            <div class="status-avatar float-right fail-bg">
-               <i class="fa fa-times text-white"></i>
+            <div class="node" id="5">[dummyAdmin, admin123, Invalid]</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
             </div>
           </div>
         </div>
-  <div class="accordion">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-title">
-            <div class="node" id="9">[dummyAdmin, admin123]</div>
-            <div class="status-avatar float-right fail-bg">
-               <i class="fa fa-times text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:43:41 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>6:59:58 AM</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.WebDriverException: disconnected: unable to send message to renderer
-  (failed to check if window was closed: disconnected: not connected to DevTools)
-  (Session info: chrome=121.0.6167.184)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [6dd0ff8e5aa0555a86ef91d28e183de1, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\kavis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3032}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3032/devtool..., se:cdpVersion: 121.0.6167.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 6dd0ff8e5aa0555a86ef91d28e183de1
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at Login.CorrectPassword.CorrectPassword(CorrectPassword.java:32)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</textarea>
-          
+          Test passed
         </td>
       </tr>
   </tbody>
@@ -375,116 +187,25 @@ Session ID: 6dd0ff8e5aa0555a86ef91d28e183de1
           </div>
         </div>
       </div>
-  </div>
-      </div>
-  </div>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="fail" test-id="10"
-          author=""
-          tag=""
-          device="">
-          <div class="status-avatar fail-bg">
-            <i class="fa fa-times text-white"></i>
-          </div>
-          <div class="test-detail">
-            <span class="meta text-white badge badge-sm"></span>
-            <p class="name">CorrectUsername</p>
-            <p class="text-sm"><span>06:43:44 AM</span> / <span>0.158 secs</span></p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<div class='float-right'><span class='badge badge-default'>#test-id=10</span></div>
-<h5 class="test-status text-fail">CorrectUsername</h5>
-<span class='badge badge-success'>02.03.2025 06:43:44</span>
-<span class='badge badge-danger'>02.03.2025 06:43:44</span>
-<span class='badge badge-default'>0.158 secs</span>
-</div>
-<div class="m-t-10 m-l-5"></div>
-</div>
-</div>  <div class="mt-4">  <div class="accordion">
       <div class="card">
         <div class="card-header">
           <div class="card-title">
-            <div class="node" id="11">CorrectUsername</div>
-            <div class="status-avatar float-right fail-bg">
-               <i class="fa fa-times text-white"></i>
+            <div class="node" id="6">[Admin, dummypass, Invalid]</div>
+            <div class="status-avatar float-right pass-bg">
+               <i class="fa fa-check text-white"></i>
             </div>
           </div>
         </div>
-  <div class="accordion">
-      <div class="card">
-        <div class="card-header">
-          <div class="card-title">
-            <div class="node" id="12">[Admin, dummypass]</div>
-            <div class="status-avatar float-right fail-bg">
-               <i class="fa fa-times text-white"></i>
-            </div>
-          </div>
-        </div>
-        <div class="">
+        <div class="collapse">
           <div class="card-body">
 <table class="table table-sm">
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>6:43:44 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>7:00:14 AM</td>
         <td>
-          <textarea readonly class="code-block">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=121.0.6167.184)
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2566144592a5de7cb24b08a101675c81, findElement {using=xpath, value=//input[@placeholder='Username']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.184, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Users\kavis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:3052}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:3052/devtool..., se:cdpVersion: 121.0.6167.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 2566144592a5de7cb24b08a101675c81
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
-	at Login.CorrectUsername.CorrectUsername(CorrectUsername.java:32)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at org.testng.TestRunner.privateRun(TestRunner.java:764)
-	at org.testng.TestRunner.run(TestRunner.java:585)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
-	at org.testng.TestNG.runSuites(TestNG.java:1069)
-	at org.testng.TestNG.run(TestNG.java:1037)
-	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
-	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
-</textarea>
-          
+          Test passed
         </td>
       </tr>
   </tbody>
@@ -507,133 +228,18 @@ Session ID: 2566144592a5de7cb24b08a101675c81
 </div>
 <div class="test-content-detail"><div class="detail-body"></div></div>
 </div></div>
-<div class="test-wrapper row view exception-view attributes-view">
-<div class="test-list">
-<div class="test-list-tools">
-<ul class="tools pull-left">
-<li>
-<a href="">
-<span class="font-size-14">Exception</span>
-</a>
-</li>
-</ul>
-<ul class="tools text-right">
-<li>
-<a href="#">
-<span class="badge badge-primary">2</span>
-</a>
-</li>
-</ul>
-</div>
-<div class="test-list-wrapper scrollable">
-<ul class="test-list-item">
-<li class="test-item">
-<div class="open-test">
-<div class="test-detail">
-<p class="name">org.openqa.selenium.WebDriverException</p>
-<p class="duration text-sm">2 tests</p>
-</div>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.WebDriverException</h4>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>06:43:29 AM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='6'>[dummyAdmin, dummypass]</a>
-<div class="">
-<span class="badge badge-default">LoginwithBotInCorrect</span>
-</div>
-</td>
-</tr>
-<tr>
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>06:43:40 AM</td>
-<td>
-<a href="#" class="linked" test-id='7' id='9'>[dummyAdmin, admin123]</a>
-<div class="">
-<span class="badge badge-default">CorrectPassword</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="open-test">
-<div class="test-detail">
-<p class="name">org.openqa.selenium.NoSuchWindowException</p>
-<p class="duration text-sm">1 tests</p>
-</div>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>org.openqa.selenium.NoSuchWindowException</h4>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>06:43:44 AM</td>
-<td>
-<a href="#" class="linked" test-id='10' id='12'>[Admin, dummypass]</a>
-<div class="">
-<span class="badge badge-default">CorrectUsername</span>
-</div>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="test-content scrollable">
-<div class="test-content-tools">
-<ul>
-<li>
-<a class="back-to-test" href="javascript:void(0)">
-<i class="fa fa-arrow-left"></i>
-</a>
-</li>
-</ul>
-</div>
-<div class="test-content-detail">
-<div class="detail-body"></div>
-</div>
-</div>
-</div><div class="container-fluid p-4 view dashboard-view">
+<div class="container-fluid p-4 view dashboard-view">
 <div class="row">
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Feb 3, 2025 06:43:20 AM</h3>
+<h3>Feb 4, 2025 06:59:20 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Feb 3, 2025 06:43:44 AM</h3>
+<h3>Feb 4, 2025 07:00:15 AM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -645,7 +251,7 @@ Session ID: 2566144592a5de7cb24b08a101675c81
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Class Failed</p>
-<h3>3</h3>
+<h3>0</h3>
 </div></div>
 </div>
 </div>
@@ -661,12 +267,12 @@ Session ID: 2566144592a5de7cb24b08a101675c81
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='25%'>
+<div><small data-tooltip='100%'>
 <b>1</b> class passed
 </small>
 </div>
 <div>
-<small data-tooltip='75%'><b>3</b> class failed,
+<small data-tooltip='0%'><b>0</b> class failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -684,9 +290,9 @@ Session ID: 2566144592a5de7cb24b08a101675c81
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='25%'><b>1</b> methods passed</small></div>
+<div><small data-tooltip='100%'><b>1</b> methods passed</small></div>
 <div>
-<small data-tooltip='75%'><b>3</b> methods failed,
+<small data-tooltip='0%'><b>0</b> methods failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -704,9 +310,9 @@ Session ID: 2566144592a5de7cb24b08a101675c81
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='25%'><b>1</b> passed</small></div>
+<div><small data-tooltip='100%'><b>4</b> passed</small></div>
 <div>
-<small data-tooltip='75%'><b>3</b> failed,
+<small data-tooltip='0%'><b>0</b> failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -724,9 +330,9 @@ Session ID: 2566144592a5de7cb24b08a101675c81
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='25%'><b>1</b> events passed</small></div>
+<div><small data-tooltip='100%'><b>4</b> events passed</small></div>
 <div>
-<small data-tooltip='75%'><b>3</b> events failed,
+<small data-tooltip='0%'><b>0</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -741,24 +347,24 @@ Session ID: 2566144592a5de7cb24b08a101675c81
 var statusGroup = {
 parentCount: 5,
 passParent: 1,
-failParent: 3,
+failParent: 0,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
 passChild: 1,
-failChild: 3,
+failChild: 0,
 warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 1,
-failGrandChild: 3,
+passGrandChild: 4,
+failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 1,
-failEvents: 3,
+passEvents: 4,
+failEvents: 0,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0
